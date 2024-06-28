@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font_Heebo {
+  font-family: "Heebo";
+}
+.font_Poppins {
+  font-family:"Poppins";
+}
