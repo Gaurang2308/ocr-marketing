@@ -1,4 +1,5 @@
 import React from 'react'
+import { LiaFileSolid } from 'react-icons/lia'
 
 const CardComponent = () => {
     return (
@@ -12,29 +13,44 @@ const CardComponent = () => {
                 <div className='grid grid-cols-3 my-10 gap-8'>
                     <div className='bg-white p-6 rounded shadow-md' >
                         <div className='font_Poppins '>
-                            <h2 className='text-xl font-bold mb-4'>CQE</h2>
-                            <span className='text-md font-semibold'>Contextual Quality Enhancer</span>
+                            <h2 className='text-xl font-bold'>CQE</h2>
+                            <span className='text-sm font-semibold'>Contextual Quality Enhancer</span>
                         </div>
                         <div>
-                            <p className='font_Heebo text-[12px] pt-4 pr-10'>Our proprietary AI model enhances quality of the documents across multiple quality parameters allowing better extraction accuracy and document coverage</p>
+                            <p className='font_Heebo text-[12px] pt-4 pr-10 pb-4'>Our proprietary AI model enhances quality of the documents across multiple quality parameters allowing better extraction accuracy and document coverage</p>
+                        </div>
+                        <div className='absolute'>
+                            <div className='h-[50px] w-[50px] bg-[#F1EAFF] flex items-center justify-center rounded-[50%]'>
+                                <LiaFileSolid className='text-[#9F77EB] text-[25px]' />
+                            </div>
                         </div>
                     </div>
                     <div className='bg-white p-6 rounded shadow-md' >
                         <div className='font_Poppins '>
-                            <h2 className='text-xl font-bold mb-4'>CQE</h2>
-                            <span className='text-md font-semibold'>Contextual Quality Enhancer</span>
+                            <h2 className='text-xl font-bold'>CDI</h2>
+                            <span className='text-sm font-semibold'>CDI Contextual Document Identifier</span>
                         </div>
                         <div>
-                            <p className='font_Heebo text-[12px] pt-4 pr-10'>Our proprietary AI model enhances quality of the documents across multiple quality parameters allowing better extraction accuracy and document coverage</p>
+                            <p className='font_Heebo text-[12px] pt-4 pr-10 pb-4'>Our proprietary AI pipeline to intelligently improve, classify/identify invoices from the incoming documents across various formats and quality standards</p>
+                        </div>
+                        <div className='absolute'>
+                            <div className='h-[50px] w-[50px] bg-[#F1EAFF] flex items-center justify-center rounded-[50%]'>
+                                <LiaFileSolid className='text-[#9F77EB] text-[25px]' />
+                            </div>
                         </div>
                     </div>
-                    <div className='bg-white p-6 rounded shadow-md' >
+                    <div className='bg-white p-6 rounded shadow-md relative' >
                         <div className='font_Poppins '>
-                            <h2 className='text-xl font-bold mb-4'>CQE</h2>
-                            <span className='text-md font-semibold'>Contextual Quality Enhancer</span>
+                            <h2 className='text-xl font-bold'>CDC</h2>
+                            <span className='text-sm font-semibold'>Contextual Document Capture</span>
                         </div>
                         <div>
-                            <p className='font_Heebo text-[12px] pt-4 pr-10'>Our proprietary AI model enhances quality of the documents across multiple quality parameters allowing better extraction accuracy and document coverage</p>
+                            <p className='font_Heebo text-[12px] pt-4 pr-10 pb-4'>Our proprietary AI model enhances quality of the documents across multiple quality parameters allowing better extraction accuracy and document coverage</p>
+                        </div>
+                        <div className='absolute'>
+                            <div className='h-[50px] w-[50px] bg-[#F1EAFF] flex items-center justify-center rounded-[50%]'>
+                                <LiaFileSolid className='text-[#9F77EB] text-[25px]' />
+                            </div>
                         </div>
                     </div>
                 </div>
